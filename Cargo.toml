@@ -2,5 +2,12 @@
 name = "ttycraft"
 version = "0.1.0"
 edition = "2024"
+description = "A Minecraft launcher built for the terminal."
+license = "GPL-3.0-only"
+repository = "https://github.com/GOFNY/TTYCraft"
+readme = "README.md"
 
 [dependencies]
+crossterm = "0.29"
+ratatui = "0.30"
+ratatui-textarea = "0.9"
